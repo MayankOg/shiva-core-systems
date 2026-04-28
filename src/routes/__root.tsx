@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "SHIVA NCR CONSULTANTS" },
+      { name: "description", content: "Value First. Solutions Follow." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "SHIVA NCR CONSULTANTS" },
+      { property: "og:description", content: "Value First. Solutions Follow." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "SHIVA NCR CONSULTANTS" },
+      { name: "twitter:description", content: "Value First. Solutions Follow." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/63d2a6f0-52f5-42b7-80a7-01fecfbc1fec/id-preview-5494b589--0756f0ed-a9fc-4137-b76c-4f7e9bae3271.lovable.app-1777405825348.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/63d2a6f0-52f5-42b7-80a7-01fecfbc1fec/id-preview-5494b589--0756f0ed-a9fc-4137-b76c-4f7e9bae3271.lovable.app-1777405825348.png" },
     ],
     links: [
       {
