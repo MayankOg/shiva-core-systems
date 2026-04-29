@@ -3,7 +3,10 @@ name: Deploy to GitHub Pages (Bun)
 on:
   push:
     branches:
-      - main  # or master if you're using that
+      - main
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # ✅ fixes warning
 
 permissions:
   contents: read
